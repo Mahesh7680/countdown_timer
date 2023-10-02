@@ -153,17 +153,17 @@ class DigitalTimer extends Component {
               />
               Reset
             </button>
-            <p>Set Timer Limit</p>
+          </div>
+          <p>Set Timer Limit</p>
 
-            <div className="control-input-container">
-              <button type="button" onClick={this.onMinutesDecrement}>
-                -
-              </button>
-              <p className="main-minutes-input">{userInput}</p>
-              <button type="button" onClick={this.onMinutesIncrement}>
-                +
-              </button>
-            </div>
+          <div className="control-input-container">
+            <button type="button" onClick={this.onMinutesDecrement}>
+              -
+            </button>
+            <p className="main-minutes-input">{userInput}</p>
+            <button type="button" onClick={this.onMinutesIncrement}>
+              +
+            </button>
           </div>
         </div>
       </div>
