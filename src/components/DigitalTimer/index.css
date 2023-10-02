@@ -1,0 +1,66 @@
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+.counter-background {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 350px;
+  width: 400px;
+  background-size: cover;
+}
+.timer-to-display {
+  background-color: #ffffff;
+  color: #00d9f5;
+  height: 120px;
+  width: 120px;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+.timer-to-display p {
+  color: black;
+}
+img {
+  height: 25px;
+  margin: 0 10px 0 10px;
+}
+.user-handling-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+}
+.control-input-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.control-input-container :hover {
+  color: blue;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .timer-container {
+    display: flex;
+    flex-grow: 1;
+    width: 100vw;
+    justify-content: start;
+    align-items: center;
+  }
+  .counter-background {
+    width: 40vw;
+  }
+  .user-handling-container {
+    width: 40vw;
+    margin-top: 100px;
+  }
+}
